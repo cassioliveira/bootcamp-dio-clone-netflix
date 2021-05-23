@@ -1,16 +1,49 @@
-$('.owl-carousel').owlCarousel({
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:4,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:3
+        },
+        600:{
+            items:5
+        },
+        900:{
+            items:8
+        },
+        1300:{
+            items:10
+        }
+    }
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})
+
+/* $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
     responsive:{
         0:{
-            items:1
-        },
-        600:{
             items:3
         },
-        1000:{
+        600:{
             items:5
+        },
+        900:{
+            items:8
+        },
+        1300:{
+            items:10
         }
     }
-})
+}) */
