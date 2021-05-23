@@ -9,3 +9,4 @@ Neste projeto pude aprender e praticar alguns conceitos importantes:
 - Reaproveitamento de código utilizando variáveis CSS;
 - Posicionamento de elementos com FLEXBOX
 - Boas práticas de estrutura dos códigos;
+- Uso do Font Awesome

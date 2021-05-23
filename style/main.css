@@ -46,19 +46,42 @@ header nav a:hover {
 
 .banner {
     font: size 16px;
-    background: url('../img/cover-stargate-sg1.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/cover-stargate-sg1.jpg');
     height: 400px;
     background-size: cover;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
 
-.banner .description{
-    margin-bottom: 90px;
+.banner .description {
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
-.title{
+.title {
+    margin-top: 20%;
     font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.button {
+    background-color: rgba(0, 0, 0, .5);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.button i{
+    margin-right: 8px;
 }
