@@ -41,3 +41,24 @@ header nav a {
 header nav a:hover {
     color: #FFF;
 }
+
+/* Banner */
+
+.banner {
+    font: size 16px;
+    background: url('../img/cover-stargate-sg1.jpg');
+    height: 400px;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.banner .description{
+    margin-bottom: 90px;
+}
+
+.title{
+    font-size: 40px;
+}
