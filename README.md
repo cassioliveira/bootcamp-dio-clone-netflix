@@ -7,6 +7,8 @@ Neste projeto pude aprender e praticar alguns conceitos importantes:
 - Aplicações das tags do HTML Semântico;
 - Reset CSS;
 - Reaproveitamento de código utilizando variáveis CSS;
-- Posicionamento de elementos com FLEXBOX
+- Posicionamento de elementos com FLEXBOX;
 - Boas práticas de estrutura dos códigos;
-- Uso do Font Awesome
+- Uso do Font Awesome;
+- Aplicando responsividade;
+- Uso de plugin para efeito de carrosel de imagens;
